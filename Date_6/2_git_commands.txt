@@ -1,0 +1,23 @@
+#Git configuration
+Set code
+1.git config --global user.name "suyogbhattarai"
+2.git config --global user.email "iamsuyog11@gmail.com"
+
+Get code
+3.git config --global user.name
+4.git config --global user.email
+
+5.git init
+-it initializes a local repository.
+
+6.git status
+-(shows all the changes needed to be added and committed)
+
+7.git add .
+-Adds all the changes to the git repository.
+
+8.gitignore
+-There are some files or folder that should not be committed and pushed to github.Such files are kept in
+the .gitignore file
+
+
