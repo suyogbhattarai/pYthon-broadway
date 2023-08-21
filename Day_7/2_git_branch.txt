@@ -9,4 +9,3 @@ are coded by the developers in their respective branches.
 
  3.git checkout  <branch_name>
   It creates a new branch and jumps to that branch
-
