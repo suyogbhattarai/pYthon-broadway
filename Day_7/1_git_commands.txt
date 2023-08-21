@@ -4,4 +4,10 @@ Generates a new ssh key in your local
 2.git remote add origin <repo-ssh-link>
 Here "git remote add" is the command to add the remote alias name
 
-3.
+3.git remote -v
+List all the remotes in the repo.
+4.git remote remove origin
+It removes remote(ssh key) from the repo.
+
+
+

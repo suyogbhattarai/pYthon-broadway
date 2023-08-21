@@ -23,6 +23,6 @@ the .gitignore file
 9.git commit -m "here commit messege"
 
 10.git remote add origin here github ssh link.
-11.
+
 
 
