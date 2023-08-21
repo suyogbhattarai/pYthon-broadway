@@ -20,4 +20,9 @@ Get code
 -There are some files or folder that should not be committed and pushed to github.Such files are kept in
 the .gitignore file
 
+9.git commit -m "here commit messege"
+
+10.git remote add origin here github ssh link.
+11.
+
 
