@@ -45,7 +45,7 @@ message="hello world"
 result=message.find("w")
 print(result) # 6
 
-#   If we give the subset not present in the string then find() returns -1
+#   If we give the subset not present in the string then find() returns -1.
 
 #replace()
 
