@@ -73,4 +73,37 @@ data=[1,2,1,2,2,1,5,3,4,4,5]
 result = data.count(2)
 print(result) #3
 
+#copy()
+a=[1,2,3]
+b=a
+print(a)
+print(b)
+print(a is b) #True
+
+# by copy method
+
+b=a.copy()
+print(a)#[1,2,3]
+print(b)#[1,2,3]
+print(a is b)#False. "a" and "b" are two diffrent objects
+
+
+a=[[1,2,3],4]
+b=a.copy()
+a[0][1]=7
+print(a) #[[1,7,3],4]
+print(b)#[[1,7,3],4]
+#Here "b" is a shallow copy of "a".Mutable objects are still the same object in both "a" and "b" in
+# shallow copy
+
+#We can overcome this using deepcopy
+
+from copy import deepcopy
+
+a=[[1,2,3],4]
+b=deepcopy(a)
+a[0][1]=7
+print(a) #[[1,7,3],4]
+print(b)#[[1,2,3],4]
+
 
