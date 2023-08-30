@@ -13,4 +13,4 @@ s1=set([1,2,3,4,1,2,3,4])
 print(s1)
 
 s={1,[1,2],3} #This is invalid set because it has list as an element which is mutable
-s={1,2,(1,2,[3,4])}#this is also invalid beacause tutle has a mutable element.
+s={1,2,(1,2,[3,4])}#this is also invalid beacause tuple has a mutable element.
