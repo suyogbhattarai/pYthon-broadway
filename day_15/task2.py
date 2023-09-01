@@ -5,7 +5,7 @@ def login_required(func):
     def inner_func(*args, **kwargs):
         pw = input("Enter your password ")
         if pw == '123':
-            return func(*args, **kwargs)
+            return func(*args,**kwargs)
         else:
             return "Invalid Password"
     return inner_func
@@ -14,6 +14,7 @@ def login_required(func):
 @login_required
 def addition(a, b):
     return a + b
+
 
 
 result = addition(2, 3)
