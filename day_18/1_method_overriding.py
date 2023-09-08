@@ -23,4 +23,5 @@ class Bike(Vehicle):
 b = Bike('fi', 'red', 0)
 print(b.description())
 
-#Here both the constructor and the description method are overriden in the child class bike
+
+# Here both the constructor and the description method are overriden in the child class Bike

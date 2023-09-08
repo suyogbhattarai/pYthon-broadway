@@ -22,6 +22,8 @@ print(a.__add__(b))  # HelloWorld
 
 a = 1
 b = "World"
-print(a + b)  # TypeError
+# print(a + b)  # TypeError
+r=a.__add__(b)
+print(r)#Notimplemented
 
 a.__add__(b)

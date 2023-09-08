@@ -1,6 +1,6 @@
-# Encapsulation is the process of data hiding in the OOP approach of programming
-# We can create public, private and protected members of a class in most of the OOP languages
-# In Python, protected members are created using a single underscore, private members are created
+# Encapsulation is the process of data hiding in the OOP approach of programming.
+# We can create public, private and protected members of a class in most of the OOP languages.
+# In Python, protected members are created using a single underscore, private members are created.
 # using a double underscore and public members do not contain any underscores.
 
 class Vehicle:

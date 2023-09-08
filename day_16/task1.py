@@ -14,7 +14,7 @@ def execution_time(func):
 
 @execution_time
 def test_fxn():
-    for i in range(1000000000):
+    for i in range(100000000):
         pass
     print("Function Completed !!")
 

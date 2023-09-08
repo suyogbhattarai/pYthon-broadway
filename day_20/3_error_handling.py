@@ -21,9 +21,9 @@ except (ValueError, KeyError):
 
 # try...except chain
 try:
-    num = int(input("Enter a number "))
+    num = int(input("Enter a number"))
 except ValueError:
-    print("Please enter a number ")
+    print("Please enter a number! ")
 except TypeError:
     print("Please carry out proper operation")
 except ZeroDivisionError:

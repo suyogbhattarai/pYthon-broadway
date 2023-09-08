@@ -55,12 +55,12 @@ class B:
 class C(A,B): # priority to top-most left to right
     pass
 c=C()
-print(c.message)
+print(c.message) #hello world
 
 #Hierarchial Inheritance
 
 class A:
-    message="Hello World "
+    message="Hello World"
 
 class B(A):
     pass

@@ -21,14 +21,15 @@ class Person:
 p1 = Person(25)
 print(p1.age)  # 25
 
-p2 = Person.age_from_year(1992)
-print(p2.age)  # 31
+p2 =  Person.age_from_year(1992)
+print(p2.age)
+print(p1.grade("12th"))
 
 # Here "age_from_year" method is a class method and such type of method is also called as a
 # factory method
 
 
-# Static Method
+# Static Method:
 # Static Methods are those methods which do not change the state of the class or an object.
 # We do not pass self or cls in the static methods.
 # In the above Person class 'grade' is a static method.

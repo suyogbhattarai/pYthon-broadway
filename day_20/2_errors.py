@@ -29,7 +29,7 @@
 # a = 1
 # print(b)  # Name b is not defined. NameError
 
-# import jason  # No module named jason. ModuleNotFoundError
+# import jason  # No module named jason. ModuleNotFoundError.
 
 # a = [1, 2, 3, 4]
 # print(a[5])  # IndexError

@@ -10,12 +10,12 @@ if num<10:
 
     for _ in range(num):
         new_num=new_num*10+num #0*10 + 3 = 3,#3*10+3=33,33*10 + 3=333
-        total+=new_num # 3+33+333
+        total=(total+new_num )# 3+33+333
 
     print(total)
 
 else:
 
-     print("It is valid only for single igit number")
+     print("It is valid only for single digit number")
 
 
