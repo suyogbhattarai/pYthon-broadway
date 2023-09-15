@@ -28,9 +28,9 @@ fp.close()
 
 #Opening the file with the above method can be problematic sometime as we may forget
 # to close the file
-#so, it is better to open your file using contect manager
+#so, it is better to open your file using context manager
 
-with open(filename,'r') as fp: #context manager
+with open(filename,'r') as fp: #Context manager
     data=fp.read()
 print(data)
 

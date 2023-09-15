@@ -1,0 +1,50 @@
+[
+  {
+    "id": "5",
+    "name": "suyog bhattarai",
+    "age": "12",
+    "address": "kapan"
+  },
+  {
+    "id": "5",
+    "name": "annurup",
+    "age": "40",
+    "address": "kharibot"
+  },
+  {
+    "id": "3",
+    "name": "sugam",
+    "age": "9",
+    "address": "chabahil"
+  },
+  {
+    "id": "3",
+    "name": "sita",
+    "age": "16",
+    "address": "kapan"
+  },
+  {
+    "id": "24",
+    "name": "mukunda",
+    "age": "23",
+    "address": "kapan"
+  },
+  {
+    "id": "23",
+    "name": "sakssham",
+    "age": "67",
+    "address": "kapan"
+  },
+  {
+    "id": "rijan",
+    "name": "rijan",
+    "age": "45",
+    "address": "ramhiti"
+  },
+  {
+    "id": "34",
+    "name": "pragyan",
+    "age": "34",
+    "address": "budhanilkantha"
+  }
+]
